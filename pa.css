@@ -1,0 +1,94 @@
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+
+body {
+    background: linear-gradient(-45deg, #3E502A, #577382, #1D3531, #362217);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-family: 'IBM Plex Sans Hebrew';font-size: 22px;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(11, 30, 25, 1);
+    border-radius: 10px;
+    opacity: 0.9;
+    background-: ;
+    backdrop-filter: blur(10px);
+}
+
+nav,
+ul {
+  display: flex;
+  /*   padding:1em; */
+  margin: 0px;
+  align-items: center;
+}
+nav,
+li {
+  list-style-type: none;
+  margin: 1em;
+  /*   margin-left:1em; */
+  display: flex;
+  gap: 10em;
+  justify-content: space-around;
+}
+
+
+
+.box {
+  background: #3D5751;
+  width: 90%;
+  min-height: 60%;
+  border-radius: 5px;
+  align-self: center;
+  backdrop-filter: blur(10px);
+  position: relative;
+top: 50px; left: 60px;
+
+}
+
+.titleBox {
+  background: #091A16;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px 15px;
+}
+
+.textBox {
+  padding: 15px 15px;
+}
+
+p, h2 {
+  font-family: Courier;
+}
+h1{
+  color: white;
+}
+h2{
+  color: white;
+}
